@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery of what to do in the summer</title>
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/gallery.css">
 </head>
 <body>
     <header id="Home">
@@ -21,7 +22,30 @@
         </ul>
     </nav>
     <main>
+        <div>
+            <img id="display" src="Images/image1.jpg" alt="display">
+        </div>
 
+
+        <div class="gallery">
+            <p>Click on one of the small images below for the image to show up on the big image area after 2 seconds</p>
+            <p>You can also click on the left and right arrow keys to switch between images</p>
+            <div id="images">
+                <img class="image1" src="Images/image1.jpg" width="100px" height="80px" alt="image1">
+                <img class="image2" src="Images/image2.jpg" width="100px" height="80px" alt="image2">
+                <img class="image3" src="Images/image3.jpg" width="100px" height="80px" alt="image3">
+                <img class="image4" src="Images/image4.webp" width="100px" height="80px" alt="image4">
+                <img class="image5" src="Images/image5.jpg" width="100px" height="80px" alt="image5">
+                <img class="image6" src="Images/image6.webp" width="100px" height="80px" alt="image6">
+            </div>
+        </div>
+    </div>
+    <script 
+        src="https://code.jquery.com/jquery-3.7.1.js" 
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous">
+    </script>    
+    <script src="../JS/gallery.js"></script>
     </main>
 </body>
 </html>
