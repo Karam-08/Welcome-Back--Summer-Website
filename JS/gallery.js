@@ -33,7 +33,7 @@ $(document).ready(function(){
         $("#display").slideUp(0).delay(2000).attr('src', 'Images/image6.webp').attr('width', '500').slideDown(1000)
         currentImage = 5
     })
-    $imgSrc =''
+    $imgSrc = ''
     $("body").on("keydown", function(event){ // When the key is pressed down
         if(event.key === "ArrowRight"){ // If the right arrow is clicked
            
@@ -44,7 +44,7 @@ $(document).ready(function(){
             currentImage++ // Increments by 1 for next image
             $imgSrc = $(".image" + currentImage).attr("src") // Code shortener
             $("#display").slideUp(0).delay(2000).attr("src", $imgSrc).attr('width', '500').slideDown(1000) // Does the animation while switching to the new image source
-        } else if(event.key === "ArrowLeft"){ // Same thing but goes to the previous image instead
+        }else if(event.key === "ArrowLeft"){ // Same thing but goes to the previous image instead
             
             if(currentImage < 2){ // Decrement requires it to be less than 2 instead of 1 for some reason
                 currentImage = 7
@@ -53,8 +53,6 @@ $(document).ready(function(){
             currentImage-- // Decrements by 1 for previous
             $imgSrc = $(".image" + currentImage).attr("src") // Code shortener
             $("#display").slideUp(0).delay(2000).attr("src", $imgSrc).attr('width', '500').slideDown(1000)
-
         }
-
     })
 })
