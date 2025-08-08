@@ -6,19 +6,21 @@
 }
 
 body{
-  background-image: linear-gradient(75deg, rgb(94, 215, 249) 0%, #FFA500 100%); /* blue to to orange */
+  background-image: linear-gradient(90deg, rgb(243, 199, 185) 0%, #FFA500 100%); /* blue to to orange */
   text-align: center;
 }
 
-#title{
+h1{
     margin-top: 15px;
     padding: 5px;
-    font-size: 45px;
+    font-size: 40px;
     color: whitesmoke;
+    text-shadow: 1px 1px black;
 }
 
 nav{
     background-color: #FFD166;
+    border: 1px solid black;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 5px;
@@ -38,13 +40,21 @@ nav ul li{
 
 nav ul li a{
     margin: 10px;
-    color: #CC5500;
+    color: #a54500;
     text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
 }
 
 a:hover{
-    color: #FF7F50;
-    font-size: 17px;
-    text-decoration: underline;
-    transform-origin: center center;
+    color: white;
+    background-color: #FF7F50;
+    transform: scale(1.05);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
