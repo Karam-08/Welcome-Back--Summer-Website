@@ -6,7 +6,7 @@
 }
 
 body{
-  background-image: linear-gradient(90deg, rgb(243, 199, 185) 0%, #FFA500 100%); /* blue to to orange */
+  background-image: linear-gradient(90deg, rgb(243, 199, 185) -10%, #FFA500 50%, rgb(243, 199, 185) 110%);
   text-align: center;
 }
 
@@ -15,7 +15,8 @@ h1{
     padding: 5px;
     font-size: 40px;
     color: whitesmoke;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav{
@@ -29,7 +30,7 @@ nav{
 nav ul{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     list-style: none;
     padding: 5px;
 }
