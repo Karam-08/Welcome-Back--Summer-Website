@@ -10,10 +10,10 @@ body{
   text-align: center;
 }
 
-h1{
+#title{
     margin-top: 15px;
     padding: 5px;
-    font-size: 40px;
+    font-size: 45px;
     color: whitesmoke;
 }
 
@@ -47,8 +47,4 @@ a:hover{
     font-size: 17px;
     text-decoration: underline;
     transform-origin: center center;
-}
-
-section{
-    background-color: #FFFAF0;
 }
