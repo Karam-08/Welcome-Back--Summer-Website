@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>What is this website about?</title>
     <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/gallery.css">
 </head>
 <body>
     <header>
         <h1>Summer</h1>
-        <p>Your guide to sunny fun and relaxation.</p>
     </header>
     <nav>
         <ul>
@@ -20,26 +20,28 @@
         </ul>
     </nav>
     <main>
-        <div id="slider">
-            <h2>What Represents Summer?</h2>
-            <ul class="slides">
-                <li class="slide">
-                    <img src="" width="720px" height="400px" alt="">
-                    <p id="slidedesc"></p>
-                </li>
-                <li class="slide">
-                    <img src="" width="720px" height="400px" alt="">
-                    <p id="slidedesc"></p>
-                </li>
-                <li class="slide">
-                    <img src="" width="720px" height="400px" alt="">
-                    <p id="slidedesc"></p>
-                </li>
-            </ul>
-            <div class="slider-controls">
-                <button id="prev">Previous</button>
-                <button id="next">Next</button>
-            </div>
+        <div id="flexcontainer">
+            <section>
+                <h2 id="title">What I did over the summer</h2>
+            </section>
+            <section id="gallery">
+                <div>
+                    <img src="../Images/image1.jpg" width="720px" height="400px" alt="washington monument">
+                    <p>We went to the Washington Monument. There were other places that we stopped by too.</p>
+                </div>
+                <div>
+                    <img src="../Images/image2.jpg" width="720px" height="400px" alt="expensive and overpriced">
+                    <p>We got food at a Lebanese restaurant. It was expensive and overpriced. $22 for shrimp that I could cook better.</p>
+                </div>
+                <div>
+                    <img src="../Images/image3.jpg" width="720px" height="400px" alt="first decent game">
+                    <p>This was my first good game realistic game in Warthunder from around May. I got lots of research points.</p>
+                </div>
+                <div>
+                    <img src="../Images/image4.jpg" width="720px" height="400px" alt="first jet">
+                    <p>This was my first ever jet in Warthunder. I got it at around late July.</p>
+                </div>
+            </section>
         </div>
     </main>
     <footer>

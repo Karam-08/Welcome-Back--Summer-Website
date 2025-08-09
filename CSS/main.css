@@ -52,10 +52,3 @@ a:hover{
     background-color: #FF7F50;
     transform: scale(1.05);
 }
-
-footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
