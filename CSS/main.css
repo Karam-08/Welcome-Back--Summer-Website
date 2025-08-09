@@ -47,8 +47,3 @@ nav ul li a{
     border-radius: 8px;
 }
 
-a:hover{
-    color: white;
-    background-color: #FF7F50;
-    transform: scale(1.05);
-}

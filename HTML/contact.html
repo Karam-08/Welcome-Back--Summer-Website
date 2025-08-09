@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>What is this website about?</title>
     <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
 </head>
 <body>
     <header>
@@ -20,11 +21,33 @@
         </ul>
     </nav>
     <main>
-        <section>
-        </section>
+    <div id="flexcontainer">
+        <form id="contact">
+        <div>
+            <h3 class="infoheader">First and last name:</h3>
+            <input type="text" id="name" name="name" placeholder="EX: Karam Abbas" required>
+            <h3 class="infoheader">Email:</h3>
+            <input type="email" id="email" name="email" placeholder="EX: example@gmail.com" required>
+            <h3 class="infoheader">Phone Number:</h3>
+            <input type="text" id="number" name="number" placeholder="EX: 123-456-7890" required>
+        </div>
+        <div>
+            <h3 class="infoheader">Message:</h3>
+            <textarea name="message" id="message" type="text" placeholder="Is Optional"></textarea>
+        </div>
+        <button id="submit">Submit</button>
+        </form>
+    </div>
+    <div id="output"></div>
     </main>
     <footer>
         <p>2025 Summer Website, Made by Karam Abbas</p>
     </footer>
+<script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous">
+</script>
+<script src="../JS/navbar.js"></script>
 </body>
 </html>
